@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../Fontes/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../Fontes/Rubik-VariableFont_wght.ttf);
+}
+
+:root {
+    --preset--text-transform: uppercase; 
+    --preset--color--laranja-escuro: #FE6A0F;
+    --preset--color--laranja-claro : #E87D0E;
+}

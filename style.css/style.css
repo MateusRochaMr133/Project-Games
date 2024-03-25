@@ -1,0 +1,597 @@
+main {
+    max-width: 1440px;
+    color: #fff;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+/* Header */
+header.topo {
+    padding-top: 30px;
+}
+
+div.lista-topo {
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+div.lista-topo ul {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ul.topo-lista-itens span {
+    font-size: 40px;
+}
+
+ul.topo-lista-itens button {
+    background-color: coral;
+    color: #fff;
+    border-radius: 20px;
+    width: 200px;
+    height: 51px;
+}
+
+/* Section Controle */
+
+section.controle {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    padding-left: 30px;
+}
+
+div.controle-paragrafos {
+    color: #fff;
+    flex-direction: column;
+    padding: 60px 0px 0px 200px;
+}
+
+div.controle-paragrafos h3 {
+    font-family: "Poppins";
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 31px;
+    color: #E87D0E;
+    padding-top: 50px;
+}
+
+div.controle-paragrafos h2 {
+    font-family: "Poppins";
+    font-weight: 700px;
+    font-size: 50px;
+    line-height: 77px;
+    padding-bottom: 40px;
+}
+
+div.controle-paragrafos p {
+    font-family: "Poppins";
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 50px;
+} 
+
+div.controle-paragrafos button {
+    width: 195px;
+    height: 53px;
+    border-radius: 40px;
+    background-color: #FE6A0F;
+    color: #fff;
+}
+
+div.img-controle {
+    background: url(../Imgs/img-controle.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 761px;
+    position: relative;
+    left: 600px;
+    bottom: 100px;
+}
+
+/* Section Controle Img */
+
+div.img-unity {
+    position: relative;
+    top: 300px;
+    right: 120px;
+}
+
+div.img-unity img {
+    width: 96px;
+    height: 30px;
+}
+
+div.img-cryengine {
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+
+div.img-cryengine img {
+    width: 101px;
+    height: 99px;
+}
+
+div.unreal-engine {
+    position: relative;
+    left: 250px;
+    top: 150px;
+}
+
+div.unreal-engine img {
+    width: 59px;
+    height: 64px;
+}
+
+/* Section games */
+
+section.games {
+    width: 1000px;
+    height: 700px;
+    padding-top: 300px;
+    padding-left: 400px;
+}
+
+div.games-texto-button {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+div.games-texto-button h2 {
+    font-family: "Rubik";
+    font-weight: 700px;
+    font-size: 31px;
+    line-height: 58px;
+}
+
+div.games-texto-button button {
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    background-color: rgb(65, 63, 63);
+    color: #fff;
+    font-family: "Rubik";
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 37px;
+    position: relative;
+    left: 170px;
+}
+
+div.img-games {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.img-games img {
+    width: 251px;
+    height: 277px;
+    border-radius: 20px;
+}
+
+div.info-jogos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+div.info-jogos i {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+div.imgs-jogos {
+    text-align: center;
+}
+
+div.imgs-jogos h2 {
+    font-family: "Rubik";
+    font-weight: 500px;
+    font-size: 22px;
+    line-height: 41px;
+}
+
+div.lorem-games {
+    text-align: center;
+    padding: 40px 0 0 40px;
+}
+
+div.lorem-games p {
+    font-family: "Poppins";
+    font-weight: 600px;
+    font-size: 35px;
+    line-height: 65px;
+}
+
+
+/* Section Spider Aranha */
+
+section.spider-aranha {
+    padding-bottom: 20px;
+}
+
+div.info-aranha {
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+div.info-aranha h2 {
+    font-family: "Poppins";
+    font-weight: 600px;
+    font-size: 30px;
+    line-height: 56px;
+    padding-bottom: 10px;
+}
+
+div.info-aranha p {
+    font-family: "Poppins";
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+div.img-aranha {
+    text-align: center;
+}
+
+div.img-aranha img {
+    padding-left: 40px ;
+    width: 1600px;
+    height: 462px;
+    border-radius: 40px;
+}
+
+
+/* Section info-opcoes */
+
+section.info-opcoes {
+    width: 1900px;
+    height: 881px;
+    padding-top: 40px;
+    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.9), rgba(0, 0 , 0 , 0.4)), url(../Imgs/img-fundo.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
+div.info-lorem {
+    text-align: center;
+}
+
+div.info-lorem h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+    align-items: center;
+}
+
+div.info-lorem h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+div.informacoes-games {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1045px;
+    height: 400px;
+    padding-left: 100px;
+    gap: 60px;
+    padding-left: 400px;
+    padding-top: 70px;
+}
+
+div.informacoes-games h2 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+div.texto-games {
+    text-align: center;
+}
+
+div.texto-games h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.texto-games i {
+    background-color: #fff;
+    color: #DC7000;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 40px;
+} 
+
+
+/* Section Recents Projects */
+
+section.recent-projects {
+    padding: 40px 0px 30px 400px;
+    text-align: center;
+}
+
+section.recent-projects img {
+    border-radius: 20px;
+}
+
+div.info-recents-projects {
+    align-items: center;
+}
+
+div.info-recents-projects h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+}
+
+div.info-recents-projects h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+
+div.imgs-recents-projects-1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+}
+
+div.img-1 img {
+    width: 382px;
+    height: 223px;
+    grid-column: 1 / 2;
+}
+
+div.img-2 img {
+    width: 382px;
+    height: 223px;
+    grid-column: 3 / 4;
+}
+
+div.img-3 img {
+    width: 352px;
+    height: 223px;
+    grid-column: 5 / 6;
+}
+
+div.imgs-recents-projects-2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+    padding-top: 30px;
+}
+
+div.img-4 img {
+    width: 246px;
+    height: 223px;
+}
+
+div.img-5 img {
+    width: 401px;
+    height: 223px;
+}
+
+div.img-6 img {
+     width: 469px;
+     height: 223px;
+}
+
+div.button-recents-projects {
+    padding-top: 30px;
+}
+
+div.button-recents-projects button {
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(65, 63, 63);
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 37px;
+}
+
+div.button-recents-projects button:hover {
+    width: 150px;
+    height: 80px;
+}
+
+/* Section Input Info */
+
+section.input-info {
+    width: 1550px;
+    padding: 50px 0px 30px 350px;
+    background-color: #171717;
+}
+
+div.input-info-textos {
+    width: 545px;
+    height: 129px;
+}
+
+div.input-info-textos h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+}
+
+div.input-info-textos h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+div.input-infomacoes1 {
+    width: 1170px;
+    height: 150px;
+    background-color: #1C140F;
+    padding-top: 30px;
+    border-radius: 15px;
+}
+
+div.input-informacoes23 {
+    display: flex;
+    justify-content: center;
+}
+
+div.textos-do-input {
+    width: 636px;
+    height: 107px;
+}
+
+div.textos-do-input h2 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+
+div.textos-do-input h3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+div.input-button-email {
+    width: 385px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    position: relative;
+    top: 30px;
+}
+
+div.input-button-email input {
+    border: none;
+}
+
+div.input-button-email button {
+    background-color: #DC7000;
+    width: 105px;
+    height: 37px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+}
+
+/* Footer */
+
+footer.footer-infos {
+    height: 376px;
+    background-color: #070707;
+}
+
+div.infos-footer-todos {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 55px 0px;
+}
+
+div.footer-logo li {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+li.li-Logo {
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 20px;
+}
+
+li.li-logo1 {
+    padding-bottom: 20px;
+}
+
+div.footer-About-us {
+ 
+}
+
+li.lista-info {
+    padding-bottom: 10px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+li.abot-us-1 {
+    padding-bottom: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 25px;
+}
+
+div.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+div.redes-sociais i {
+    position: relative;
+    top: 150px;
+    font-size: 40px;
+    padding-top: 5px;   
+}
+
+div.copyright {
+    border-top: 5px solid #fff;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+div.copyright h2 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
